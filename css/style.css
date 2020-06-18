@@ -1,0 +1,188 @@
+/*Reference white:#f5f5f5
+*/
+/*0f1626*/
+* {
+  margin: 0;
+  padding: 0;
+  list-decoration: none;
+  font-family: Lucida Console; }
+
+.wrap {
+  margin: 0;
+  background: linear-gradient(to bottom, #568fa0, #001120 33%, #001120 50%, #568fa0); }
+
+svg {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1; }
+
+.navigation {
+  color: #f5f5f5;
+  font-size: 20px;
+  background-color: transparent;
+  width: 100%;
+  right: 0; }
+  .navigation ul {
+    text-align: right; }
+  .navigation li {
+    margin: 20px;
+    display: inline-block; }
+    .navigation li:hover a:after, .navigation li:hover a:before {
+      width: 100%; }
+  .navigation a {
+    color: #f5f5f5;
+    position: relative;
+    padding: 5px 0; }
+    .navigation a:hover {
+      text-decoration: none;
+      color: #001120; }
+    .navigation a:after, .navigation a:before {
+      width: 0;
+      content: "";
+      height: 1px;
+      background-color: #001120;
+      position: absolute;
+      transition: width .2s; }
+    .navigation a:before {
+      top: 0;
+      left: 0; }
+    .navigation a:after {
+      bottom: 0;
+      right: 0; }
+
+h1 {
+  animation: slideIn-left 2s ease;
+  white-space: nowrap; }
+
+small {
+  animation: slideIn_right 2s ease;
+  white-space: nowrap; }
+
+.navigation.offtop {
+  position: fixed;
+  background: #001120;
+  color: #ab987a;
+  height: 60px;
+  z-index: 3;
+  transition: .3s; }
+
+.navigation.offtop a:hover {
+  color: #ab987a; }
+
+.intro {
+  color: #f5f5f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 400px;
+  width: 100%;
+  z-index: 1;
+  position: relative;
+  overflow: hidden; }
+  .intro > .trees {
+    position: absolute;
+    bottom: 0;
+    max-height: 150px;
+    width: 100%; }
+    .intro > .trees img {
+      width: 100%; }
+
+.skill {
+  background: #131417;
+  color: #ab987a;
+  padding: 5%;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  position: relative;
+  padding-top: 100px; }
+  .skill .bar {
+    margin: 5px 0;
+    align-items: flex-end;
+    display: flex; }
+    .skill .bar img, .skill .bar i, .skill .bar div {
+      width: 40px;
+      height: 32px; }
+    .skill .bar p {
+      display: inline-block;
+      width: calc(100% - 32px);
+      height: 5px;
+      background-color: #ab987a;
+      margin-left: 10px;
+      border-radius: 5px; }
+  .skill > .content {
+    padding: 20px;
+    margin: 50px auto;
+    color: #ab987a; }
+    .skill > .content:nth-child(2) {
+      background: none;
+      width: 100%; }
+      .skill > .content:nth-child(2) h2 {
+        text-align: left;
+        white-space: normal; }
+    .skill > .content:nth-child(3) {
+      color: #ab987a;
+      flex-direction: column;
+      align-items: flex-start; }
+      .skill > .content:nth-child(3) h2 {
+        color: #001120; }
+    .skill > .content > hr {
+      height: 1px;
+      background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(171, 152, 122, 0.75), rgba(0, 0, 0, 0)); }
+  .skill:after {
+    content: "";
+    position: absolute;
+    top: 0px;
+    border-top: solid 7vw #001120;
+    border-left: solid 17vw transparent;
+    border-right: solid 81vw transparent; }
+
+.more {
+  padding: 10%;
+  color: #f5f5f5;
+  display: flex;
+  align-items: center; }
+  .more .content {
+    padding: 20px; }
+  .more img {
+    max-width: 350px; }
+
+.svg-snowscene {
+  width: 100%;
+  height: 100vh; }
+
+.snow {
+  fill: #fff;
+  animation-name: snowing;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out; }
+  .snow:nth-child(2n) {
+    animation-delay: 1.5s; }
+  .snow:nth-child(3n) {
+    animation-delay: 2.3s;
+    animation-duration: 3.3s; }
+  .snow:nth-child(4n) {
+    animation-delay: 0.8s;
+    animation-duration: 3.2s; }
+
+/*animation*/
+@keyframes snowing {
+  0% {
+    fill-opacity: 1; }
+  100% {
+    fill-opacity: 0;
+    transform: translateY(400px); } }
+@keyframes slideIn-left {
+  from {
+    margin-right: -900px; }
+  to {
+    margin-left: 0; } }
+@keyframes slideIn_right {
+  from {
+    margin-left: -900px; }
+  to {
+    margin-right: 0; } }
+
+/*# sourceMappingURL=style.css.map */
