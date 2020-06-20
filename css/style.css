@@ -24,7 +24,8 @@ svg {
   width: 100%;
   right: 0; }
   .navigation ul {
-    text-align: right; }
+    text-align: right;
+    margin-bottom: 0; }
   .navigation li {
     margin: 20px;
     display: inline-block; }
