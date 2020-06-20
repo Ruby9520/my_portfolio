@@ -15,6 +15,7 @@ $(window).scroll(function(){
     $bar.find('#p70').animate({'width':'70%'}, 'slow');
     $('#p60').animate({'width':'60%'}, 'slow');
     $('#p50').animate({'width':'50%'}, 'slow');
+    return false;
   }
   else if($(window).scrollTop()> 100){
     $('.navigation').addClass('offtop');
