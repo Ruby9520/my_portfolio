@@ -18,9 +18,10 @@ $(window).on('scroll',function(){
     $('#p60').animate({'width':'60%'});
     $('#p50').animate({'width':'50%'});
     //$('#p50').animate({'width':'50%'}, 'slow');
-    $(window).off('scroll');
+  }else if{
+    $('.navigation').removeClass('offtop');
   }else{
-  $('.navigation').removeClass('offtop');
+    $(window).off('scroll');
   }
 })
 
