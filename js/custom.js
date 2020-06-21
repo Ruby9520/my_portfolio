@@ -13,8 +13,7 @@ $(window).scroll(function(){
     $('.navigation').addClass('offtop');
   }else if($(window).scrollTop()> 480){
     var $bar=$('.bar');
-    console.log($bar.find('#p90').css('width'));
-    if($bar.find('#p90').css('width')==0){
+    if($bar.find('#p90').css('width')=='0px'){
     $bar.find('#p90').animate({'width':'90%'});
     $bar.find('#p70').animate({'width':'70%'});
     $('#p60').animate({'width':'60%'});
