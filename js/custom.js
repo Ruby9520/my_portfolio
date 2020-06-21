@@ -9,10 +9,9 @@ $(document).ready(function($){
  })
  //if not stick to the top, than fixed, and skill bar animation
 $(window).scroll(function(){
-  if($(window).scrollTop()> 100){
-    $('.navigation').addClass('offtop');
-  }else if($(window).scrollTop()> 480){
+  if($(window).scrollTop()> 480){
     var $bar=$('.bar');
+    console.log('enter');
     if($bar.find('#p90').css('width')=='0px'){
     $bar.find('#p90').animate({'width':'90%'});
     $bar.find('#p70').animate({'width':'70%'});
@@ -20,6 +19,8 @@ $(window).scroll(function(){
     $('#p50').animate({'width':'50%'});
     //$('#p50').animate({'width':'50%'}, 'slow');
     }
+  }else if($(window).scrollTop()> 100){
+    $('.navigation').addClass('offtop');
   }else{
   $('.navigation').removeClass('offtop');
   }
