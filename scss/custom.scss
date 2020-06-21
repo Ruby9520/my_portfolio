@@ -30,13 +30,13 @@ svg{position:absolute;top:0;width:100%;z-index:1}
     padding:5px 0;
     &:hover{
       text-decoration:none;
-      color:$second-background;
+      color:$font-color;
     }
     &:after, &:before{
       width:0;
       content:"";
       height:1px;
-      background-color:$background_bottom;
+      background-color:$font-color;
       position:absolute;
       transition:width .2s;
     }
