@@ -36,7 +36,7 @@ svg {
     padding: 5px 0; }
     .navigation a:hover {
       text-decoration: none;
-      color: #011627; }
+      color: #f5f5f5; }
     .navigation a:after, .navigation a:before {
       width: 0;
       content: "";
@@ -103,6 +103,12 @@ small {
     .skill .bar img, .skill .bar i, .skill .bar div {
       width: 40px;
       height: 32px; }
+    .skill .bar:first-child span {
+      width: 40px;
+      height: 32px;
+      font-size: 23px;
+      border: 1px solid;
+      border-radius: 8px; }
     .skill .bar p {
       display: inline-block;
       width: 0;
@@ -133,7 +139,7 @@ small {
     content: "";
     position: absolute;
     top: 0px;
-    border-top: solid 7vw #011627;
+    border-top: solid 7vw #001120;
     border-left: solid 17vw transparent;
     border-right: solid 81vw transparent; }
 
