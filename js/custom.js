@@ -8,7 +8,7 @@ $(document).ready(function($){
    $(this).attr('cx', getRandom(1,100) + '%').attr('cy', '-' + getRandom(1,100)).attr('r', getRandom(1,6))
  })
  //if not stick to the top, than fixed, and skill bar animation
-$(window).one('scroll', function(){
+$(window).on('scroll',function(){
   if($(window).scrollTop()> 480){
     var $bar=$('.bar');
     $bar.find('#p90').animate({'width':'90%'});
@@ -22,6 +22,7 @@ $(window).one('scroll', function(){
   }else{
   $('.navigation').removeClass('offtop');
   }
+  $(window).off('scroll');
 })
 
  //arrive block top show
