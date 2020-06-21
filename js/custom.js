@@ -11,7 +11,6 @@ $(document).ready(function($){
 $(window).scroll(function(){
   if($(window).scrollTop()> 480){
     var $bar=$('.bar');
-    console.log('enter');
     if($bar.find('#p90').css('width')=='0px'){
     $bar.find('#p90').animate({'width':'90%'});
     $bar.find('#p70').animate({'width':'70%'});
