@@ -30,7 +30,7 @@ svg{position:absolute;top:0;width:100%;z-index:1}
     padding:5px 0;
     &:hover{
       text-decoration:none;
-      color:$background;
+      color:$second-background;
     }
     &:after, &:before{
       width:0;
@@ -104,6 +104,13 @@ small{
       width:40px;
       height:32px;
     }
+    &:first-child span{
+      width:40px;
+      height:32px;
+      font-size: 23px;
+      border: 1px solid;
+      border-radius: 8px;
+    }
     p{
       display:inline-block;
       width:0;
@@ -144,7 +151,7 @@ small{
       content:"";
       position:absolute;
       top:0px;
-      border-top: solid 7vw $background;
+      border-top: solid 7vw $background_bottom;
       border-left: solid 17vw transparent;
       border-right: solid 81vw transparent;
   }
