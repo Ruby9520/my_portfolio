@@ -207,8 +207,8 @@ small {
     margin-right: 0; } }
 @keyframes move {
   from {
-    transform: translateY(-100px); }
+    transform: translateY(200px); }
   to {
-    transform: translateY(0px); } }
+    transform: translateY(-100px); } }
 
 /*# sourceMappingURL=style.css.map */
