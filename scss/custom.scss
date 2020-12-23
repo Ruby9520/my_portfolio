@@ -87,8 +87,9 @@ small{
     border-radius: 50%;
     content: "";
     background: #f5f5f5;
-    box-shadow: 4px 4px 12px 4px rgb(134 186 222 / 50%);
+    box-shadow: 4px 4px 12px 4px #86bade80;
     left: -12px;
+    animation:move 2s ease;
     }
   }
   > .trees{
@@ -232,5 +233,12 @@ small{
     margin-right: 0;
   }
 }
-
+@keyframes move{
+  from{
+     transform:translateY(-100px);
+  }
+  to {
+    transform:translateY(0px);
+  }
+}
 
