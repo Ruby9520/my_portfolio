@@ -80,6 +80,10 @@ small {
   z-index: 1;
   position: relative;
   overflow: hidden; }
+  .intro > .moon{
+    position:fixed;
+    left:0;
+  }
   .intro > .trees {
     position: absolute;
     bottom: 0;
