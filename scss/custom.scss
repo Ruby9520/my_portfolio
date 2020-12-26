@@ -11,6 +11,7 @@ margin:0;padding:0;list-decoration:none;font-family:Lucida Console}
   /*background:linear-gradient(to bottom, #568fa0, #001120 33%,  #001120 50%, #568fa0);*/
 }
 svg{position:absolute;top:0;width:100%;z-index:1}
+a:hover{text-decoration:none !important}
 .navigation{
   color:$font-color;
   font-size:20px;
@@ -77,19 +78,19 @@ small{
   overflow:hidden;
   .link{
     margin-top:30px;
-    span{
+    >a span{
         margin-right:15px;
         padding:8px 10px;
         border:1px solid $font-color;
-        transition:1s;
-        position:relative;
+        transition:all 1s;
+        color: $font-color;
         &:nth-of-type(2){
             background:$font-color;
             color:$background;
         }
         &:hover{
             box-shadow: 0px 0px 6px 1px $font-color !important;
-            top:-5px;
+            transform:translateY(-5px);
         }
     }
   }
