@@ -84,9 +84,12 @@ small {
     margin-top: 20px; }
     .intro .link span {
       margin-right: 15px;
+      padding: 5px 10px;
       border: 1px solid #8e6421;
-      padding: 5px;
       box-shadow: 0px 0px 6px 1px #8e6421; }
+      .intro .link span:nth-of-type(2) {
+        background: #8e6421;
+        color: #011627; }
   .intro > .moon {
     position: fixed;
     left: 0;
@@ -223,5 +226,10 @@ small {
     transform: translateY(200px); }
   100% {
     transform: translateY(0px); } }
+/*media query*/
+@media screen and (max-width: 768px) {
+  .intro > .moon {
+    top: 350px;
+    left: -42px; } }
 
 /*# sourceMappingURL=style.css.map */
