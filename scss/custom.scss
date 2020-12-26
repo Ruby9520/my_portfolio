@@ -82,7 +82,7 @@ small{
         margin-right:15px;
         padding:8px 10px;
         border:1px solid $font-color;
-        transition:all 1s;
+        transition:all .5s;
         color: $font-color;
         &:nth-of-type(2){
             background:$font-color;
