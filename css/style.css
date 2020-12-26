@@ -53,7 +53,8 @@ svg {
 
 h1 {
   animation: slideIn-left 2s ease;
-  white-space: nowrap; }
+  white-space: nowrap;
+  margin-bottom: 0px; }
 
 small {
   animation: slideIn_right 2s ease;
@@ -77,12 +78,20 @@ small {
   justify-content: center;
   min-height: 450px;
   width: 100%;
-  z-index: auto;
   position: relative;
   overflow: hidden; }
+  .intro > .link {
+    margin-top: 20px; }
+    .intro > .link > span {
+      margin-right: 15px;
+      border: 1px solid #8e6421;
+      padding: 5px;
+      box-shadow: 0px 0px 6px 1px #8e6421; }
   .intro > .moon {
     position: fixed;
-    left: 0; }
+    left: 0;
+    top: 200px;
+    z-index: 0; }
     .intro > .moon:after {
       position: absolute;
       width: 200px;
@@ -109,6 +118,7 @@ small {
   justify-content: space-around;
   text-align: center;
   position: relative;
+  z-index: 2;
   padding-top: 100px; }
   .skill .bar {
     margin: 5px 0;
@@ -163,6 +173,9 @@ small {
   padding: 10%;
   color: #8e6421;
   display: flex;
+  background: #011627;
+  position: relative;
+  z-index: 2;
   align-items: center; }
   .more .content {
     padding: 20px; }
