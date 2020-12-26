@@ -85,16 +85,16 @@ small {
   overflow: hidden; }
   .intro .link {
     margin-top: 30px; }
-    .intro .link > a span {
+    .intro .link > a {
       margin-right: 15px;
       padding: 8px 10px;
       border: 1px solid #8e6421;
       transition: all .5s;
       color: #8e6421; }
-      .intro .link > a span:nth-of-type(2) {
+      .intro .link > a:nth-of-type(2) {
         background: #8e6421;
         color: #011627; }
-      .intro .link > a span:hover {
+      .intro .link > a:hover {
         box-shadow: 0px 0px 6px 1px #8e6421 !important;
         transform: translateY(-5px); }
   .intro > .moon {
