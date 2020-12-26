@@ -50,7 +50,7 @@ svg{position:absolute;top:0;width:100%;z-index:1}
     }
   }
 }
-h1{animation:slideIn-left 2s ease ;white-space:nowrap;}
+h1{animation:slideIn-left 2s ease ;white-space:nowrap;margin-bottom: 0px;}
 small{
   animation:slideIn_right 2s ease;
   white-space:nowrap;
@@ -73,22 +73,32 @@ small{
   justify-content:center;
   min-height:450px;
   width:100%;
-  z-index:auto;
   position:relative;
   overflow:hidden;
+  > .link{
+    margin-top:20px;
+    > span{
+        margin-right:15px;
+        border:1px solid $font-color;
+        padding:5px;
+        box-shadow: 0px 0px 6px 1px $font-color;
+    }
+  }
   > .moon{
     position:fixed;
     left:0;
+    top:200px;
+    z-index:0;
     &:after{
-    position: absolute;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    content: "";
-    background: #f5f5f5;
-    box-shadow: 4px 4px 12px 4px #86bade80;
-    left: -12px;
-    animation:move 2s ease;
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        content: "";
+        background: #f5f5f5;
+        box-shadow: 4px 4px 12px 4px #86bade80;
+        left: -12px;
+        animation:move 2s ease;
     }
   }
   > .trees{
@@ -111,6 +121,7 @@ small{
   justify-content:space-around;
   text-align:center;
   position:relative;
+  z-index:2;
   padding-top:100px;
   .bar{
     margin:5px 0;
@@ -178,6 +189,9 @@ small{
   padding:10%;
   color:$font-color;
   display:flex;
+  background:$background;
+  position:relative;
+  z-index:2;
   align-items:center;
   .content{
     padding:20px;
