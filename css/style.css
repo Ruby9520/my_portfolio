@@ -80,9 +80,9 @@ small {
   width: 100%;
   position: relative;
   overflow: hidden; }
-  .intro > .link {
+  .intro .link {
     margin-top: 20px; }
-    .intro > .link > span {
+    .intro .link span {
       margin-right: 15px;
       border: 1px solid #8e6421;
       padding: 5px;
