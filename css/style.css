@@ -16,6 +16,9 @@ svg {
   width: 100%;
   z-index: 1; }
 
+a:hover {
+  text-decoration: none !important; }
+
 .navigation {
   color: #8e6421;
   font-size: 20px;
@@ -82,18 +85,18 @@ small {
   overflow: hidden; }
   .intro .link {
     margin-top: 30px; }
-    .intro .link span {
+    .intro .link > a span {
       margin-right: 15px;
       padding: 8px 10px;
       border: 1px solid #8e6421;
-      transition: 1s;
-      position: relative; }
-      .intro .link span:nth-of-type(2) {
+      transition: all 1s;
+      color: #8e6421; }
+      .intro .link > a span:nth-of-type(2) {
         background: #8e6421;
         color: #011627; }
-      .intro .link span:hover {
+      .intro .link > a span:hover {
         box-shadow: 0px 0px 6px 1px #8e6421 !important;
-        top: -5px; }
+        transform: translateY(-5px); }
   .intro > .moon {
     position: fixed;
     left: 0;
