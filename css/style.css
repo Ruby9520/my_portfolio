@@ -89,7 +89,7 @@ small {
       margin-right: 15px;
       padding: 8px 10px;
       border: 1px solid #8e6421;
-      transition: all 1s;
+      transition: all .5s;
       color: #8e6421; }
       .intro .link > a span:nth-of-type(2) {
         background: #8e6421;
