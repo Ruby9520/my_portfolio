@@ -79,9 +79,13 @@ small{
     margin-top:20px;
     span{
         margin-right:15px;
+        padding:5px 10px;
         border:1px solid $font-color;
-        padding:5px;
         box-shadow: 0px 0px 6px 1px $font-color;
+        &:nth-of-type(2){
+            background:$font-color;
+            color:$background;
+        }
     }
   }
   > .moon{
@@ -254,4 +258,7 @@ small{
     transform:translateY(0px);
   }
 }
-
+/*media query*/
+@media screen and (max-width:768px){
+.intro > .moon{top:350px;left:-42px;}
+}
