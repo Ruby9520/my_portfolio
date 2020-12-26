@@ -81,15 +81,19 @@ small {
   position: relative;
   overflow: hidden; }
   .intro .link {
-    margin-top: 20px; }
+    margin-top: 30px; }
     .intro .link span {
       margin-right: 15px;
-      padding: 5px 10px;
+      padding: 8px 10px;
       border: 1px solid #8e6421;
-      box-shadow: 0px 0px 6px 1px #8e6421; }
+      transition: 1s;
+      position: relative; }
       .intro .link span:nth-of-type(2) {
         background: #8e6421;
         color: #011627; }
+      .intro .link span:hover {
+        box-shadow: 0px 0px 6px 1px #8e6421 !important;
+        top: -5px; }
   .intro > .moon {
     position: fixed;
     left: 0;
