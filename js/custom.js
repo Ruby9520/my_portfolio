@@ -27,6 +27,7 @@ $(document).ready(function ($) {
 	//click nav scroll
 	$('.navigation').find('li').click(function(){
 		//get click id
+		console.log('click nav');
 		var clickNum = '#' + $(this).find('a').attr('href').substr(1);
 		//console.log(clickNum);
 		$([document.documentElement, document.body]).animate({
