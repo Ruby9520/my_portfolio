@@ -176,7 +176,7 @@ small {
           flex-direction: column;
           justify-content: center;
           text-align: left; }
-          .skill > .content_work > .row > div.content > a {
+          .skill > .content_work > .row > div.content a {
             display: block;
             margin-top: 10px; }
           .skill > .content_work > .row > div.content .learn_more {
