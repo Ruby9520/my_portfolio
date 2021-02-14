@@ -150,6 +150,16 @@ small {
       background-color: #8e6421;
       margin-left: 10px;
       border-radius: 5px; }
+  .skill > .content_work {
+    color: #8e6421; }
+    .skill > .content_work > .row > div {
+      padding: 5% 0;
+      width: 100%;
+      display: flex;
+      max-height: 300px;
+      align-items: center; }
+    .skill > .content_work > .content {
+      text-align: left; }
   .skill > .content {
     padding: 20px;
     margin: 50px auto;
