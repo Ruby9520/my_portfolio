@@ -180,6 +180,9 @@ small{
 					flex-direction:column;
 					justify-content: center;
 					text-align:left;
+					.learn_more{
+						border-solid:$background;
+					}
 				}
 				img{
 					width:100%;
@@ -221,7 +224,7 @@ small{
 			content:"";
 			position:absolute;
 			top:0px;
-			border-top: solid 7vw $background_bottom;
+			border-top: solid 7vw $background;
 			border-left: solid 17vw transparent;
 			border-right: solid 81vw transparent;
 	}
