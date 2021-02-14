@@ -175,7 +175,9 @@ small {
           justify-content: center;
           text-align: left; }
           .skill > .content_work > .row > div.content .learn_more {
-            border-solid: #011627; }
+            border: 1px solid #8e6421;
+            border-radius: 8px;
+            padding: 7px 10px 5px; }
         .skill > .content_work > .row > div img {
           width: 100%; }
         .skill > .content_work > .row > div h3 {
