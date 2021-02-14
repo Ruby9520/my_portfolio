@@ -46,12 +46,12 @@ $(document).ready(function ($) {
 	}
 
 	//switch picture
-	$('[type="range"]').on('input', function (e) {
-		var value = $(this).val() + '%';
-		console.log(value);
-		$('.divide_pic').css('width', value);
-		$('.controll').css('left', value);
-	})
+	// $('[type="range"]').on('input', function (e) {
+	// 	var value = $(this).val() + '%';
+	// 	console.log(value);
+	// 	$('.divide_pic').css('width', value);
+	// 	$('.controll').css('left', value);
+	// })
 })
 
 
