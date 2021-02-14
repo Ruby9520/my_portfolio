@@ -164,7 +164,6 @@ small{
 					padding:5% 0;
 					width:100%;
 					display:flex;
-					max-height:300px;
 					align-items:center;
 				img{
 					width:100%;
@@ -172,7 +171,10 @@ small{
 			}
 		}
 		>.content{
-			text-align:left
+			text-align:left;
+			flex-direction:column;
+			justify-content: center;
+			text-align:left;
 		}
 	}
 	>.content{
