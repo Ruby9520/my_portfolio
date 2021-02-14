@@ -181,7 +181,9 @@ small{
 					justify-content: center;
 					text-align:left;
 					.learn_more{
-						border-solid:$background;
+						border: 1px solid #8e6421;
+						border-radius: 8px;
+						padding: 7px 10px 5px;
 					}
 				}
 				img{
