@@ -135,6 +135,9 @@ small{
 	position:relative;
 	z-index:2;
 	padding-top:100px;
+	h2{
+		color:$background;
+	}
 	.bar{
 		margin:5px 0;
 		align-items: flex-end;
@@ -163,7 +166,7 @@ small{
 		color:$background_bottom;
 		> hr{
 			height:1px;
-			background:linear-gradient(to right, rgba(0,0,0,0), rgba(171,152,122,0.75), rgba(0,0,0,0));
+			background:linear-gradient(to right, rgba(0,0,0,0), $background_bottom, rgba(0,0,0,0));
 		}
 		>.row{
 			margin-bottom:8vw;
