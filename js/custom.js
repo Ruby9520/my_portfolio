@@ -1,6 +1,9 @@
+//function
 function getRandom(min, max) {
 	return Math.random() * (max - min);
 }
+
+//jQuery
 $(document).ready(function ($) {
 	/*snowwww*/
 	var snow = $('svg').find('.snow');
@@ -25,7 +28,7 @@ $(document).ready(function ($) {
 		}
 	})
 	//click nav scroll
-	$('.navigation').find('li').click(function(){
+	$('.navigation .li, .link').click(function(){
 		//get click id
 		console.log('click nav');
 		var clickNum = '#' + $(this).find('a').attr('href').substr(1);
