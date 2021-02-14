@@ -28,13 +28,13 @@ $(document).ready(function ($) {
 		}
 	})
 	//click nav scroll
-	$('.navigation, .link').click(function(){
+	$('.navigation, .link').click(function () {
 		//get click id
 		console.log('click nav');
 		var clickNum = '#' + $(this).find('a').attr('href').substr(1);
 		//console.log(clickNum);
 		$([document.documentElement, document.body]).animate({
-				scrollTop: $(clickNum).offset().top-50
+			scrollTop: $(clickNum).offset().top - 50
 		}, 1000);
 	})
 
@@ -44,6 +44,14 @@ $(document).ready(function ($) {
 	if ($allHeight >= $skill.offset().top) {
 		$skill.fadeIn('slow');
 	}
+
+	//switch picture
+	$('[type="range"]').on('input', function (e) {
+		var value = $(this).val() + '%';
+		console.log(value);
+		$('.divide_pic').css('width', value);
+		$('.controll').css('left', value);
+	})
 })
 
 
