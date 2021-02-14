@@ -1,8 +1,9 @@
 $background: #011627;/*0f1626*/
-$background_bottom:#001120;
+$background_bottom:#6F8AB7;
 $font-color:#8e6421;
 $second-background:#f5f5f5;
-$font-hover:#007bff;
+$font-hover:#690500;
+/*69B578 light green, 3A7D44 抹茶綠*/
 body{overflow-x:hidden}
 *{
 margin:0;padding:0;list-decoration:none;font-family:Lucida Console}
@@ -160,7 +161,12 @@ small{
 	}
 	>.content_work{
 		color:$font-color;
+		> hr{
+			height:1px;
+			background:linear-gradient(to right, rgba(0,0,0,0), rgba(171,152,122,0.75), rgba(0,0,0,0));
+		}
 		>.row{
+			margin-bottom:8vw;
 			> div{
 					padding:5% 0;
 					width:100%;
@@ -185,7 +191,7 @@ small{
 	>.content{
 	//background:rgba(0,17,32,.8);
 		//background:rgba(255,255,255, .5);
-		padding:20px;
+		padding:5vw 20px 8vw;
 		margin:50px auto;
 		color:$font-color;
 		&:nth-child(2){
