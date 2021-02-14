@@ -176,10 +176,14 @@ small {
           flex-direction: column;
           justify-content: center;
           text-align: left; }
+          .skill > .content_work > .row > div.content > a {
+            display: block;
+            margin-top: 10px; }
           .skill > .content_work > .row > div.content .learn_more {
-            border: 1px solid #8e6421;
+            border: 1px solid #6F8AB7;
             border-radius: 8px;
-            padding: 7px 10px 5px; }
+            padding: 7px 10px 5px;
+            color: #011627; }
         .skill > .content_work > .row > div img {
           width: 100%; }
         .skill > .content_work > .row > div h3 {
