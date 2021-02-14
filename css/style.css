@@ -158,6 +158,8 @@ small {
       display: flex;
       max-height: 300px;
       align-items: center; }
+      .skill > .content_work > .row > div img {
+        width: 100%; }
     .skill > .content_work > .content {
       text-align: left; }
   .skill > .content {
