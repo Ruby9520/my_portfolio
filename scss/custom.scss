@@ -19,7 +19,11 @@ a:hover{text-decoration:none !important}
 	font-size:20px;
 	background-color:transparent;
 	width:100%;right:0;
-	ul{text-align: right;margin-bottom:0}
+	ul{
+		text-align: right;
+		margin-bottom:0;
+		margin-right:15px
+	}
 	li{
 		margin:20px;
 		display:inline-block;
@@ -63,8 +67,11 @@ small{
 	background:$background;
 	color:$font-color;
 	height:60px;
-	z-index:3;
+	z-index:7;
 	transition:.3s;
+	>ul{
+		padding-top:5px
+	}
 }
 .navigation.offtop a:hover{
 	color:#ab987a;
