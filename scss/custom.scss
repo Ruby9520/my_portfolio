@@ -190,6 +190,7 @@ small{
 					text-align:left;
 					flex-direction:column;
 					justify-content: center;
+					align-items: flex-start;
 					text-align:left;
 					a{display:block;margin-top:10px}
 					.learn_more{
@@ -240,7 +241,7 @@ small{
 			content:"";
 			position:absolute;
 			top:0px;
-			border-top: solid 7vw $background;
+			border-top: solid 7vw #00111f;
 			border-left: solid 17vw transparent;
 			border-right: solid 81vw transparent;
 	}
