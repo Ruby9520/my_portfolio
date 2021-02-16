@@ -12,16 +12,17 @@ $(document).ready(function ($) {
 	})
 	//if not stick to the top, than fixed, and skill bar animation
 	$(window).scroll(function () {
-		if ($(window).scrollTop() > 480) {
-			var $bar = $('.bar');
-			if ($bar.find('#p90').css('width') == '0px') {
-				$bar.find('#p90').animate({ 'width': '90%' });
-				$bar.find('#p70').animate({ 'width': '70%' });
-				$('#p60').animate({ 'width': '60%' });
-				$('#p50').animate({ 'width': '50%' });
-				//$('#p50').animate({'width':'50%'}, 'slow');
-			}
-		} else if ($(window).scrollTop() > 100) {
+		// if ($(window).scrollTop() > 480) {
+		// 	var $bar = $('.bar');
+		// 	if ($bar.find('#p90').css('width') == '0px') {
+		// 		$bar.find('#p90').animate({ 'width': '90%' });
+		// 		$bar.find('#p70').animate({ 'width': '70%' });
+		// 		$('#p60').animate({ 'width': '60%' });
+		// 		$('#p50').animate({ 'width': '50%' });
+		// 		//$('#p50').animate({'width':'50%'}, 'slow');
+		// 	}
+		// } 
+		if ($(window).scrollTop() > 100) {
 			$('.navigation').addClass('offtop');
 		} else {
 			$('.navigation').removeClass('offtop');
@@ -42,14 +43,6 @@ $(document).ready(function ($) {
 	if ($allHeight >= $skill.offset().top) {
 		$skill.fadeIn('slow');
 	}
-
-	//switch picture
-	// $('[type="range"]').on('input', function (e) {
-	// 	var value = $(this).val() + '%';
-	// 	console.log(value);
-	// 	$('.divide_pic').css('width', value);
-	// 	$('.controll').css('left', value);
-	// })
 })
 
 
