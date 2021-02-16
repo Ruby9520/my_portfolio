@@ -99,6 +99,7 @@ small{
 	> .moon{
 		position:fixed;
 		left:0;
+		display:none;
 		top:200px;
 		z-index:0;
 		&:after{
