@@ -28,11 +28,10 @@ $(document).ready(function ($) {
 		}
 	})
 	//click nav scroll
-	$('.navigation>ul>li, .link').click(function () {
+	$('.navigation>ul>li, .link').click(function (e) {
 		//get click id
-		console.log('click nav');
-		var clickNum = '#' + $(this).find('a').attr('href').substr(1);
-		//console.log(clickNum);
+		var clickNum = '#' + $(e.target).find('a').attr('href').substr(1);//$(this)
+		console.log(clickNum);
 		$([document.documentElement, document.body]).animate({
 			scrollTop: $(clickNum).offset().top - 50
 		}, 1000);
