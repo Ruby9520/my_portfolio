@@ -28,15 +28,14 @@ $(document).ready(function ($) {
 		}
 	})
 	//click nav scroll
-	$('.navigation>ul>li, .link').click(function (e) {
+	$('.navigation>ul>li').click(function () {
 		//get click id
-		var clickNum = '#' + $(e.target).find('a').attr('href').substr(1);//$(this)
+		let clickNum = '#' + $(this).find('a').attr('href').substr(1);
 		console.log(clickNum);
 		$([document.documentElement, document.body]).animate({
 			scrollTop: $(clickNum).offset().top - 50
 		}, 1000);
 	})
-
 	//arrive block top show
 	var $skill = $('.skill');
 	var $allHeight = $(window).scrollTop() + $(window).height();
