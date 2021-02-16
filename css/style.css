@@ -32,7 +32,8 @@ a:hover {
   right: 0; }
   .navigation ul {
     text-align: right;
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    margin-right: 15px; }
   .navigation li {
     margin: 20px;
     display: inline-block; }
@@ -73,8 +74,10 @@ small {
   background: #011627;
   color: #8e6421;
   height: 60px;
-  z-index: 3;
+  z-index: 7;
   transition: .3s; }
+  .navigation.offtop > ul {
+    padding-top: 5px; }
 
 .navigation.offtop a:hover {
   color: #ab987a; }
@@ -105,6 +108,7 @@ small {
   .intro > .moon {
     position: fixed;
     left: 0;
+    display: none;
     top: 200px;
     z-index: 0; }
     .intro > .moon:after {
