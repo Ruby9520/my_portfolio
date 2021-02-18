@@ -163,6 +163,9 @@ small {
       border-radius: 5px; }
   .skill > .content_work {
     color: #6F8AB7; }
+    .skill > .content_work .two_column > div {
+      flex-direction: column;
+      align-items: flex-start; }
     .skill > .content_work > hr {
       height: 1px;
       background: linear-gradient(to right, rgba(0, 0, 0, 0), #6F8AB7, rgba(0, 0, 0, 0)); }
@@ -236,6 +239,9 @@ small {
     padding: 20px; }
   .more img {
     max-width: 350px; }
+  .more h4 {
+    background: #8e6421;
+    color: #f5f5f5; }
 
 .svg-snowscene {
   width: 100%;
