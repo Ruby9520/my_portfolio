@@ -165,7 +165,8 @@ small {
     color: #6F8AB7; }
     .skill > .content_work .two_column > div {
       flex-direction: column;
-      align-items: flex-start; }
+      align-items: flex-start;
+      text-align: left; }
     .skill > .content_work > hr {
       height: 1px;
       background: linear-gradient(to right, rgba(0, 0, 0, 0), #6F8AB7, rgba(0, 0, 0, 0)); }
