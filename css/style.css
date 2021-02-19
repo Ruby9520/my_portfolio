@@ -166,7 +166,10 @@ small {
     .skill > .content_work .two_column > div {
       flex-direction: column;
       align-items: flex-start;
-      text-align: left; }
+      text-align: left;
+      padding: 5%; }
+      .skill > .content_work .two_column > div img {
+        padding-bottom: 3%; }
     .skill > .content_work > hr {
       height: 1px;
       background: linear-gradient(to right, rgba(0, 0, 0, 0), #6F8AB7, rgba(0, 0, 0, 0)); }
@@ -188,11 +191,6 @@ small {
           .skill > .content_work > .row > div.content a {
             display: block;
             margin-top: 10px; }
-          .skill > .content_work > .row > div.content .learn_more {
-            border: 1px solid #6F8AB7;
-            border-radius: 8px;
-            padding: 7px 10px 5px;
-            color: #011627; }
         .skill > .content_work > .row > div img {
           width: 100%; }
         .skill > .content_work > .row > div h3 {
@@ -243,6 +241,12 @@ small {
   .more h4 {
     background: #8e6421;
     color: #f5f5f5; }
+
+.learn_more {
+  border: 1px solid #6F8AB7;
+  border-radius: 8px;
+  padding: 7px 10px 5px;
+  color: #011627; }
 
 .svg-snowscene {
   width: 100%;
