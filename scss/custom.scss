@@ -260,7 +260,7 @@ small{
 	z-index:2;
 	align-items:center;
 	.content{
-		padding:20px;
+		padding:20px 30px;
 	}
 	img{
 		max-width:350px;
@@ -269,6 +269,9 @@ small{
 		background:$font-color;
 		color:$second-background;
 		padding:5px 7px 3px;
+	}
+	ul{
+		padding-left:20px
 	}
 }
 .learn_more{
