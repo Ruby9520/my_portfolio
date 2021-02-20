@@ -305,10 +305,5 @@ small {
     transform: translateY(200px); }
   100% {
     transform: translateY(0px); } }
-/*media query*/
-@media screen and (max-width: 768px) {
-  .intro > .moon {
-    top: 350px;
-    left: -42px; } }
 
 /*# sourceMappingURL=style.css.map */
