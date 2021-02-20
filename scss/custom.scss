@@ -175,6 +175,9 @@ small{
 				align-items:flex-start;
 				text-align:left;
 				padding:5% !important;
+				.content{
+					width:100%;
+				}
 				img{
 					padding-bottom:3%;
 				}
@@ -346,4 +349,8 @@ small{
 	100% {
 		transform:translateY(0px);
 	}
+}
+//media query
+@media screen and (max-width:992px){
+	.skill > .content_work > .row>div{padding:5%}
 }
