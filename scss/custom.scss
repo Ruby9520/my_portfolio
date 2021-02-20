@@ -177,7 +177,7 @@ small{
 				flex-direction:column;
 				align-items:flex-start;
 				text-align:left;
-				padding:5%;
+				padding:5% !important;
 				img{
 					padding-bottom:3%;
 				}
@@ -252,13 +252,12 @@ small{
 	}
 }
 .more{
-	padding:10%;
+	padding:10% 10% 2%;
 	color:$font-color;
 	display:flex;
 	background:$background;
 	position:relative;
 	z-index:2;
-	align-items:center;
 	.content{
 		padding:20px 30px;
 	}
@@ -271,7 +270,18 @@ small{
 		padding:5px 7px 3px;
 	}
 	ul{
-		padding-left:20px
+		padding-left:20px;
+		li:nth-of-type(odd){
+			margin-top:5px;
+		}
+	}
+	.col-12{
+		margin-top:5vw;
+		text-align:center;
+		>p{
+			padding:15px 5% 0;
+			border-top:1px solid $font-color;
+		}
 	}
 }
 .learn_more{
@@ -279,6 +289,13 @@ small{
 	border-radius: 8px;
 	padding: 7px 10px 5px;
 	color:$background;
+	display:inline-block;
+	margin-top:10px;
+	&:hover{
+		color:$second-background;
+		background:$background_bottom;
+		border:none;
+	}
 }
 //snow
 .svg-snowscene {
