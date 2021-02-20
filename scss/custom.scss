@@ -1,9 +1,8 @@
-$background: #011627;/*0f1626*/
+$background: #011627;
 $background_bottom:#6F8AB7;
 $font-color:#8e6421;
 $second-background:#f5f5f5;
 $font-hover:#690500;
-/*69B578 light green, 3A7D44 抹茶綠*/
 body{overflow-x:hidden}
 *{
 margin:0;padding:0;list-decoration:none;font-family:Lucida Console}
@@ -133,8 +132,6 @@ small{
 	}
 }
 .skill{
-	//background: url(https://picsum.photos/id/119/200/300) bottom fixed;/*#d9d9d9*/
-	//background-size:cover;
 	background:$second-background;
 	padding:5%;
 	display:flex;
@@ -213,8 +210,6 @@ small{
 		}
 	}
 	>.content{
-	//background:rgba(0,17,32,.8);
-		//background:rgba(255,255,255, .5);
 		padding:5vw 20px 8vw;
 		margin:50px auto;
 		color:$background_bottom;
