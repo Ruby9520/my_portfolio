@@ -170,9 +170,9 @@ small {
       .skill > .content_work .two_column > div img {
         padding-bottom: 3%; }
     .skill > .content_work .short-divider {
-      width: 150px;
-      height: 2px;
-      background: #ab987a; }
+      background: #a8a8a8;
+      width: 50%;
+      margin: auto; }
     .skill > .content_work > hr {
       height: 1px;
       background: linear-gradient(to right, rgba(0, 0, 0, 0), #6F8AB7, rgba(0, 0, 0, 0)); }
