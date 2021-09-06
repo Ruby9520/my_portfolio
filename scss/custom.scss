@@ -183,6 +183,11 @@ small{
 				}
 			}
 		}
+		.short-divider{
+			width:150px;
+			height:2px;
+			background:#ab987a;
+		}
 		> hr{
 			height:1px;
 			background:linear-gradient(to right, rgba(0,0,0,0), $background_bottom, rgba(0,0,0,0));
