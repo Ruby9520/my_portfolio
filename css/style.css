@@ -160,6 +160,12 @@ small {
       border-radius: 5px; }
   .skill > .content_work {
     color: #6F8AB7; }
+    .skill > .content_work .effect {
+      width: 100%;
+      border-radius: 5px;
+      padding: 3%;
+      color: #fff;
+      background: #6F8AB7; }
     .skill > .content_work .two_column > div {
       flex-direction: column;
       align-items: flex-start;
