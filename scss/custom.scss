@@ -169,6 +169,13 @@ small{
 	}
 	>.content_work{
 		color:$background_bottom;
+		.effect{
+			width:100%;
+			border-radius:5px;
+			padding:3%;
+			color:#fff;
+			background:$background_bottom;
+		}
 		.two_column{
 			>div{
 				flex-direction:column;
