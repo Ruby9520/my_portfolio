@@ -165,7 +165,7 @@ small {
       border-radius: 5px;
       padding: 3%;
       color: #fff;
-      margin: 1vw 0 2vw;
+      margin: 0.5vw 0 2vw;
       background: #6F8AB7; }
     .skill > .content_work .two_column > div {
       flex-direction: column;
