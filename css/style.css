@@ -280,8 +280,6 @@ small {
   height: 100vh; }
 
 .snow {
-  stroke: rgba(255, 255, 255, 0.429);
-  animation-name: snowing;
   animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-out; }
