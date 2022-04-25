@@ -172,14 +172,22 @@ small{
 	>.content_work{
 		color:$normal-font;
 		max-width:1440px;
+		margin-top:5vw;
 		.effect{
 			width:100%;
 			border-radius:5px;
 			padding:3%;
 			color:$normal-font;
-			margin:0.5vw 0 2vw;
+			// margin:0.5vw 0 2vw;
+			height:100%;
 			background:$background;
-			box-shadow:5px 5px 5px rgba(0, 0, 0, 0.619);
+			border: 1px solid;
+    		border-image-source: linear-gradient(301deg, #553c1e 0%, #c79b69 40%, #eccba6 100%);
+	 		border-image-slice: 1;
+			display:flex;
+			flex-direction: column;
+			justify-content: center;
+			line-height:2
 		}
 		.two_column{
 			>div{
@@ -205,9 +213,8 @@ small{
 			background:linear-gradient(to right, rgba(0,0,0,0), $font-color, rgba(0,0,0,0));
 		}
 		>.row{
-			border: 2px solid;
-    		border-image-source: linear-gradient(301deg, #120d0d 0%, #553c1e 27%, #c79b69 100%);
-	 		border-image-slice: 1;
+			box-shadow:5px 5px 5px rgba(0, 0, 0, 0.619);
+			margin:1vw auto 3vw;
 			> div{
 					padding:5% 0;
 					width:100%;
@@ -226,6 +233,7 @@ small{
 				}
 				img{
 					width:100%;
+					filter: brightness(0.5);
 				}
 				h3{width:100%;color:$normal-font}
 			}
