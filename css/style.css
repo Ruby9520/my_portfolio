@@ -129,7 +129,7 @@ small {
       width: 100%; }
 
 .skill {
-  background: #fff;
+  background: #1d1d1d;
   padding: 5%;
   display: flex;
   justify-content: space-around;
@@ -160,7 +160,8 @@ small {
       margin-left: 10px;
       border-radius: 5px; }
   .skill > .content_work {
-    color: #fff; }
+    color: #fff;
+    max-width: 1440px; }
     .skill > .content_work .effect {
       width: 100%;
       border-radius: 5px;
@@ -184,9 +185,11 @@ small {
       margin: auto; }
     .skill > .content_work > hr {
       height: 1px;
-      background: linear-gradient(to right, rgba(0, 0, 0, 0), #fff, rgba(0, 0, 0, 0)); }
+      background: linear-gradient(to right, rgba(0, 0, 0, 0), #c79b69, rgba(0, 0, 0, 0)); }
     .skill > .content_work > .row {
-      margin-bottom: 8vw; }
+      border: 2px solid;
+      border-image-source: linear-gradient(301deg, #120d0d 0%, #553c1e 27%, #c79b69 100%);
+      border-image-slice: 1; }
       .skill > .content_work > .row > div {
         padding: 5% 0;
         width: 100%;
@@ -229,12 +232,12 @@ small {
         color: #1d1d1d; }
     .skill > .content > hr {
       height: 1px;
-      background: linear-gradient(to right, rgba(0, 0, 0, 0), #fff, rgba(0, 0, 0, 0)); }
+      background: linear-gradient(to right, rgba(0, 0, 0, 0), #c79b69, rgba(0, 0, 0, 0)); }
   .skill:after {
     content: "";
     position: absolute;
     top: 0px;
-    border-top: solid 7vw #1d1d1d;
+    border-top: solid 7vw #553c1e;
     border-left: solid 17vw transparent;
     border-right: solid 81vw transparent; }
 
