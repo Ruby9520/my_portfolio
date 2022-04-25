@@ -1,3 +1,4 @@
+/* background: #011627;font-color:#8e6421;second background:#f5f5f5;font-hover:#690500; background_bottom:#6F8AB7*/
 body {
   overflow-x: hidden; }
 
@@ -9,7 +10,7 @@ body {
 
 .wrap {
   margin: 0;
-  background: #011627;
+  background: #1d1d1d;
   /*background:linear-gradient(to bottom, #568fa0, #001120 33%,  #001120 50%, #568fa0);*/ }
 
 svg {
@@ -22,7 +23,7 @@ a:hover {
   text-decoration: none !important; }
 
 .navigation {
-  color: #8e6421;
+  color: #cb9c52;
   font-size: 20px;
   background-color: transparent;
   width: 100%;
@@ -37,17 +38,17 @@ a:hover {
     .navigation li:hover a:after, .navigation li:hover a:before {
       width: 100%; }
   .navigation a {
-    color: #8e6421;
+    color: #cb9c52;
     position: relative;
     padding: 5px 0; }
     .navigation a:hover {
       text-decoration: none;
-      color: #8e6421; }
+      color: #cb9c52; }
     .navigation a:after, .navigation a:before {
       width: 0;
       content: "";
       height: 1px;
-      background-color: #8e6421;
+      background-color: #cb9c52;
       position: absolute;
       transition: width .2s; }
     .navigation a:before {
@@ -68,8 +69,8 @@ small {
 
 .navigation.offtop {
   position: fixed;
-  background: #011627;
-  color: #8e6421;
+  background: #1d1d1d;
+  color: #cb9c52;
   height: 60px;
   z-index: 7;
   transition: .3s; }
@@ -80,7 +81,7 @@ small {
   color: #ab987a; }
 
 .intro {
-  color: #8e6421;
+  color: #cb9c52;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -93,14 +94,14 @@ small {
     .intro .link > a {
       margin-right: 15px;
       padding: 8px 10px;
-      border: 1px solid #8e6421;
+      border: 1px solid #cb9c52;
       transition: all .5s;
-      color: #8e6421; }
+      color: #cb9c52; }
       .intro .link > a:nth-of-type(2) {
-        background: #8e6421;
-        color: #011627; }
+        background: #cb9c52;
+        color: #1d1d1d; }
       .intro .link > a:hover {
-        box-shadow: 0px 0px 6px 1px #8e6421 !important;
+        box-shadow: 0px 0px 6px 1px #cb9c52 !important;
         transform: translateY(-5px); }
   .intro > .moon {
     position: fixed;
@@ -137,7 +138,7 @@ small {
   z-index: 2;
   padding-top: 100px; }
   .skill h2 {
-    color: #011627; }
+    color: #1d1d1d; }
   .skill .bar {
     margin: 5px 0;
     align-items: flex-end;
@@ -155,7 +156,7 @@ small {
       display: inline-block;
       width: 0;
       height: 5px;
-      background-color: #8e6421;
+      background-color: #cb9c52;
       margin-left: 10px;
       border-radius: 5px; }
   .skill > .content_work {
@@ -205,7 +206,7 @@ small {
           width: 100%; }
         .skill > .content_work > .row > div h3 {
           width: 100%;
-          color: #011627; }
+          color: #1d1d1d; }
   .skill > .content {
     padding: 5vw 20px 8vw;
     margin: 50px auto;
@@ -218,13 +219,13 @@ small {
         text-align: center;
         white-space: normal;
         margin-bottom: 30px;
-        color: #011627; }
+        color: #1d1d1d; }
     .skill > .content:nth-child(3) {
       color: #6F8AB7;
       flex-direction: column;
       align-items: flex-start; }
       .skill > .content:nth-child(3) h2 {
-        color: #011627; }
+        color: #1d1d1d; }
     .skill > .content > hr {
       height: 1px;
       background: linear-gradient(to right, rgba(0, 0, 0, 0), #6F8AB7, rgba(0, 0, 0, 0)); }
@@ -238,9 +239,9 @@ small {
 
 .more {
   padding: 10% 10% 2%;
-  color: #8e6421;
+  color: #cb9c52;
   display: flex;
-  background: #011627;
+  background: #1d1d1d;
   position: relative;
   z-index: 2; }
   .more .content {
@@ -248,7 +249,7 @@ small {
   .more img {
     max-width: 350px; }
   .more h4 {
-    background: #8e6421;
+    background: #cb9c52;
     color: #f5f5f5;
     padding: 5px 7px 3px; }
   .more ul {
@@ -260,13 +261,13 @@ small {
     text-align: center; }
     .more .col-12 > p {
       padding: 15px 5% 0;
-      border-top: 1px solid #8e6421; }
+      border-top: 1px solid #cb9c52; }
 
 .learn_more {
   border: 1px solid #6F8AB7;
   border-radius: 8px;
   padding: 7px 10px 5px;
-  color: #011627;
+  color: #1d1d1d;
   display: inline-block;
   margin-top: 10px; }
   .learn_more:hover {
@@ -299,7 +300,7 @@ small {
     fill-opacity: 1; }
   100% {
     fill-opacity: 0;
-    transform: translateY(400px); } }
+    transform: translateX(400px); } }
 @keyframes slideIn-left {
   from {
     margin-right: -900px; }
