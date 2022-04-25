@@ -280,7 +280,7 @@ small {
   height: 100vh; }
 
 .snow {
-  fill: #fff;
+  stroke: #fff;
   animation-name: snowing;
   animation-duration: 3s;
   animation-iteration-count: infinite;

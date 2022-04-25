@@ -8,9 +8,9 @@ $(document).ready(function ($) {
 	/*snowwww*/
 	var snow = $('svg').find('.snow');
 	snow.each(function () {
-		let yValue= getRandom(1, 6);
+		let yValue= getRandom(1, 100);
 		// $(this).attr('cx', getRandom(1, 100) + '%').attr('cy', '-' + getRandom(1, 100)).attr('r', getRandom(1, 6))
-		$(this).attr('x1', getRandom(1, 100) + '%').attr('x2', '-' + getRandom(1, 100)).attr('y1', yValue).attr('y2', yValue);
+		$(this).attr('x1', getRandom(1, 50) + '%').attr('x2', '-' + getRandom(1, 50)).attr('y1', yValue).attr('y2', yValue);
 	})
 	//if not stick to the top, than fixed, and skill bar animation
 	$(window).scroll(function () {
