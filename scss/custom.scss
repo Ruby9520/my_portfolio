@@ -58,9 +58,9 @@ a:hover{text-decoration:none !important}
 		}
 	}
 }
-h1{animation:slideIn-left 2s ease ;white-space:nowrap;margin-bottom: 0px;}
+h1{animation:slideIn-left 2s ease 0s;white-space:nowrap;margin-bottom: 0px;}
 small{
-	animation:slideIn_right 2s ease;
+	animation:slideIn_right 2s ease 0s;
 	white-space:nowrap;
 }
 .navigation.offtop{
@@ -85,6 +85,8 @@ small{
 	min-height:450px;
 	width:100%;
 	position:relative;
+	background:url(/images/modified-background.jpg);
+	background-size:cover;
 	overflow:hidden;
 	.link{
 		margin-top:30px;
@@ -213,8 +215,9 @@ small{
 			background:linear-gradient(to right, rgba(0,0,0,0), $font-color, rgba(0,0,0,0));
 		}
 		>.row{
-			box-shadow:5px 5px 5px rgba(0, 0, 0, 0.619);
-			margin:1vw auto 3vw;
+			box-shadow:5px 5px 15px rgba(0, 0, 0, 0.619);
+			margin: 2vw auto 5vw;
+			border-radius: 25px;
 			> div{
 					padding:5% 0;
 					width:100%;
