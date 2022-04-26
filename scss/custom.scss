@@ -99,7 +99,6 @@ small{
 	background-size:cover;
 	overflow:hidden;
 	margin-top: -70px;
-    padding: 12% 4%;
 	.link{
 		margin-top:30px;
 		>a{
@@ -248,7 +247,7 @@ small{
 				}
 				img{
 					width:100%;
-					filter: brightness(0.5);
+					filter: brightness(0.7);
 				}
 				h3{width:100%;color:$font-color;font-weight:bold;}
 			}
@@ -325,8 +324,10 @@ small{
 	}
 }
 .button{
+	margin-top:1.5vw;
 	p{
 		background: $font-color;
+		padding: 7px 10px 5px;
 		color:#fff;
 		&:hover{
 			box-shadow: 0px 0px 6px 1px $font-color !important;

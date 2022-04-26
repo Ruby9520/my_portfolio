@@ -100,8 +100,7 @@ small {
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
-  margin-top: -70px;
-  padding: 12% 4%; }
+  margin-top: -70px; }
   .intro .link {
     margin-top: 30px; }
     .intro .link > a {
@@ -224,7 +223,7 @@ small {
             margin-top: 10px; }
         .skill > .content_work > .row > div img {
           width: 100%;
-          filter: brightness(0.5); }
+          filter: brightness(0.7); }
         .skill > .content_work > .row > div h3 {
           width: 100%;
           color: #c79b69;
@@ -278,20 +277,23 @@ small {
       padding: 15px 5% 0;
       border-top: 1px solid #c79b69; }
 
-.button p {
-  background: #c79b69;
-  color: #fff; }
-  .button p:hover {
-    box-shadow: 0px 0px 6px 1px #c79b69 !important; }
-.button .learn_more {
-  border: 1px solid #c79b69;
-  border-radius: 8px;
-  padding: 7px 10px 5px;
-  color: #c79b69;
-  display: inline-block;
-  margin-top: 10px; }
-  .button .learn_more:hover {
-    box-shadow: 0px 0px 6px 1px #c79b69 !important; }
+.button {
+  margin-top: 1.5vw; }
+  .button p {
+    background: #c79b69;
+    padding: 7px 10px 5px;
+    color: #fff; }
+    .button p:hover {
+      box-shadow: 0px 0px 6px 1px #c79b69 !important; }
+  .button .learn_more {
+    border: 1px solid #c79b69;
+    border-radius: 8px;
+    padding: 7px 10px 5px;
+    color: #c79b69;
+    display: inline-block;
+    margin-top: 10px; }
+    .button .learn_more:hover {
+      box-shadow: 0px 0px 6px 1px #c79b69 !important; }
 
 /*animation*/
 @keyframes slideIn-left {
