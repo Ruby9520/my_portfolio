@@ -1,9 +1,10 @@
 /* background: #011627;font-color:#8e6421;second background:#f5f5f5;font-hover:#690500; background_bottom:#6F8AB7*/
 // referrence #553c1e #c79b69
-$background: #1d1d1d;
 $font-color:#c79b69;
-$second-background:#553c1e;
+$font-color3:#775c3c;
 $normal-font:#fff;
+$background: #1d1d1d;
+$second-background:#553c1e;
 $font-hover:#690500;
 body{overflow-x:hidden}
 *{
@@ -19,7 +20,7 @@ a:hover{text-decoration:none !important}
 	color:$font-color;
 	font-size:20px;
 	background-color:transparent;
-	width:100%;right:0;
+	width:100%;right:0;padding:0 3%;
 	ul{
 		text-align: right;
 		margin-bottom:0;
@@ -58,10 +59,13 @@ a:hover{text-decoration:none !important}
 		}
 	}
 }
-h1{animation:slideIn-left 2s ease 0s;white-space:nowrap;margin-bottom: 0px;}
+h1{animation:slideIn-left 2s ease 0s;white-space:nowrap;margin-bottom: 1vw;font-weight:bold}
 small{
 	animation:slideIn_right 2s ease 0s;
 	white-space:nowrap;
+	color:$font-color3;
+	font-size: 1.2em;
+    line-height: 1.8;
 }
 .navigation.offtop{
 	position:fixed;
@@ -85,18 +89,20 @@ small{
 	min-height:450px;
 	width:100%;
 	position:relative;
-	background:url(/images/modified-background.jpg);
+    background: url(/my_portfolio/assets/images/modified-background.jpg);
+    background-repeat: no-repeat;
 	background-size:cover;
 	overflow:hidden;
 	.link{
 		margin-top:30px;
 		>a{
 				margin-right:15px;
-				padding:8px 10px;
+				padding: 12px 18px 8px;
 				border:1px solid $font-color;
-				transition:all .5s;
+				transition:all .3s;
+				border-radius:8px;
 				color: $font-color;
-				&:nth-of-type(2){
+				&:nth-of-type(1){
 						background:$font-color;
 						color:$normal-font;
 				}
@@ -144,8 +150,12 @@ small{
 	position:relative;
 	z-index:2;
 	padding-top:100px;
+	>div:nthof-type(1){
+		border-bottom:1px solid $font-color;
+	}
 	h2{
 		color:$font-color;
+		transform: translateY(-50%);
 	}
 	.bar{
 		margin:5px 0;
@@ -270,14 +280,14 @@ small{
 			background:linear-gradient(to right, rgba(0,0,0,0), $font-color, rgba(0,0,0,0));
 		}
 	}
-	 &:after{
-			content:"";
-			position:absolute;
-			top:0px;
-			border-top: solid 7vw $second-background;
-			border-left: solid 17vw transparent;
-			border-right: solid 81vw transparent;
-	}
+	//  &:after{
+	// 		content:"";
+	// 		position:absolute;
+	// 		top:0px;
+	// 		border-top: solid 7vw $second-background;
+	// 		border-left: solid 17vw transparent;
+	// 		border-right: solid 81vw transparent;
+	// }
 }
 .more{
 	padding:10% 10% 2%;
@@ -313,55 +323,19 @@ small{
 	}
 }
 .learn_more{
-	border: 1px solid $normal-font;
+	background:$font-color;
 	border-radius: 8px;
 	padding: 7px 10px 5px;
-	color:$background;
+	color:$normal-font;
 	display:inline-block;
 	margin-top:10px;
 	&:hover{
-		color:$normal-font;
-		background:$normal-font;
-		border:none;
+		box-shadow: 0px 0px 6px 1px $font-color !important;
 	}
-}
-//snow
-.svg-snowscene {
-	width: 100%;height:100vh;
-}
-.snow {
-	// fill: #fff; 
-	// stroke:#ffffff6e;
-	// animation-name: snowing;
-	animation-duration: 3s;
-	animation-iteration-count: infinite;
-	animation-timing-function: ease-out;
-	&:nth-child(2n){
-		animation-delay: 1.5s;
-	}
-	&:nth-child(3n){
-		animation-delay: 2.3s;
-		animation-duration: 3.3s;
-	}
-	&:nth-child(4n){
-		animation-delay: 0.8s;
-		animation-duration: 3.2s;
-	}
-	&:nth-child(5n){
-		animation-delay: 2s;
-		animation-duration: 2s;
-	}
-
 }
 
 /*animation*/
-@keyframes snowing {
-	0%{ fill-opacity: 1; }
-	100% { 
-		fill-opacity: 0;
-		transform: translateX(50vw);
-	}
-}
+
 @keyframes slideIn-left {
 	from{
 		 margin-right: -900px;
