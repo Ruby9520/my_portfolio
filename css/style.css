@@ -27,10 +27,12 @@ a:hover {
 .navigation {
   color: #c79b69;
   font-size: 20px;
-  background-color: transparent;
+  background: #00000091;
   width: 100%;
   right: 0;
-  padding: 0 3%; }
+  padding: 0 3%;
+  z-index: 999;
+  position: relative; }
   .navigation ul {
     text-align: right;
     margin-bottom: 0;
@@ -63,16 +65,15 @@ a:hover {
 
 h1 {
   animation: slideIn-left 2s ease 0s;
-  white-space: nowrap;
   margin-bottom: 1vw;
   font-weight: bold; }
 
 small {
   animation: slideIn_right 2s ease 0s;
-  white-space: nowrap;
   color: #775c3c;
   font-size: 1.2em;
-  line-height: 1.8; }
+  line-height: 1.8;
+  white-space: normal; }
 
 .navigation.offtop {
   position: fixed;
@@ -98,7 +99,9 @@ small {
   background: url(/my_portfolio/assets/images/modified-background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  overflow: hidden; }
+  overflow: hidden;
+  margin-top: -70px;
+  padding: 12% 4%; }
   .intro .link {
     margin-top: 30px; }
     .intro .link > a {
@@ -114,30 +117,11 @@ small {
       .intro .link > a:hover {
         box-shadow: 0px 0px 6px 1px #c79b69 !important;
         transform: translateY(-5px); }
-  .intro > .moon {
-    position: fixed;
-    left: 0;
-    display: none;
-    top: 200px;
-    z-index: 0; }
-    .intro > .moon:after {
-      position: absolute;
-      width: 200px;
-      height: 200px;
-      border-radius: 50%;
-      content: "";
-      background: #f5f5f5;
-      box-shadow: 4px 4px 12px 4px #86bade80;
-      left: -12px;
-      animation: move 2s ease; }
-  .intro > .trees {
-    position: absolute;
-    bottom: 0;
-    max-height: 150px;
+  .intro > .content {
+    max-width: 1240px;
     width: 100%;
-    z-index: 5; }
-    .intro > .trees img {
-      width: 100%; }
+    padding: 15% 50px 10%;
+    margin: auto; }
 
 .skill {
   background: #1d1d1d;
@@ -148,11 +132,13 @@ small {
   position: relative;
   z-index: 2;
   padding-top: 100px; }
-  .skill > div:nthof-type(1) {
-    border-bottom: 1px solid #c79b69; }
+  .skill > div:nth-of-type(1) {
+    border-top: 1px solid #c79b69; }
   .skill h2 {
     color: #c79b69;
-    transform: translateY(-50%); }
+    transform: translateY(-50%);
+    background: #1d1d1d;
+    padding: 0 26px; }
   .skill .bar {
     margin: 5px 0;
     align-items: flex-end;
@@ -180,7 +166,7 @@ small {
     .skill > .content_work .effect {
       width: 100%;
       border-radius: 5px;
-      padding: 3%;
+      padding: 8% 5%;
       color: #b1b1b1;
       height: 100%;
       background: #1d1d1d;
@@ -319,6 +305,9 @@ small {
     transform: translateY(0px); } }
 @media screen and (max-width: 992px) {
   .skill > .content_work > .row > div {
-    padding: 5%; } }
+    padding: 5%; }
+
+  .intro > .content {
+    padding: 150px 50px 100px; } }
 
 /*# sourceMappingURL=style.css.map */
