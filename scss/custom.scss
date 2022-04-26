@@ -1,12 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@500&display=swap');
 /* background: #011627;font-color:#8e6421;second background:#f5f5f5;font-hover:#690500; background_bottom:#6F8AB7*/
 // referrence #553c1e #c79b69
 $font-color:#c79b69;
 $font-color3:#775c3c;
-$normal-font:#fff;
+$normal-font:#b1b1b1;
 $background: #1d1d1d;
 $second-background:#553c1e;
 $font-hover:#690500;
-body{overflow-x:hidden}
+body{
+	overflow-x:hidden;
+	font-family: 'Noto Serif TC', serif;
+}
 *{
 margin:0;padding:0;list-decoration:none;font-family:Lucida Console}
 .wrap{
@@ -104,7 +108,7 @@ small{
 				color: $font-color;
 				&:nth-of-type(1){
 						background:$font-color;
-						color:$normal-font;
+						color:#fff;
 				}
 				&:hover{
 						box-shadow: 0px 0px 6px 1px $font-color !important;
@@ -199,7 +203,21 @@ small{
 			display:flex;
 			flex-direction: column;
 			justify-content: center;
-			line-height:2
+			line-height:1.6;
+			p{
+				font-size:1.5em;
+				color:$normal-font
+			}
+			.tag{
+				margin-top:1vw;
+				>span{
+					// margin-right:8px;
+					background:#302d2d;
+					color:$normal-font;
+					padding: 8px 12px 6px;
+					border-radius: 5px;
+				}
+			}
 		}
 		.two_column{
 			>div{
@@ -229,12 +247,12 @@ small{
 			margin: 2vw auto 5vw;
 			border-radius: 25px;
 			> div{
-					// padding:5% 0;
+					padding:0;
 					width:100%;
 					display:flex;
 					align-items:center;
 				&:nth-of-type(2){
-					padding:5%;
+					// padding:5%;
 				}
 				&.content{
 					text-align:left;
@@ -248,7 +266,7 @@ small{
 					width:100%;
 					filter: brightness(0.5);
 				}
-				h3{width:100%;color:$font-color}
+				h3{width:100%;color:$font-color;font-weight:bold;}
 			}
 		}
 	}
