@@ -200,7 +200,6 @@ small {
       margin: 2vw auto 5vw;
       border-radius: 25px; }
       .skill > .content_work > .row > div {
-        padding: 5% 0;
         width: 100%;
         display: flex;
         align-items: center; }
@@ -220,7 +219,7 @@ small {
           filter: brightness(0.5); }
         .skill > .content_work > .row > div h3 {
           width: 100%;
-          color: #fff; }
+          color: #c79b69; }
   .skill > .content {
     padding: 5vw 20px 8vw;
     margin: 50px auto;

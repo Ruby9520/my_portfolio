@@ -219,7 +219,7 @@ small{
 			margin: 2vw auto 5vw;
 			border-radius: 25px;
 			> div{
-					padding:5% 0;
+					// padding:5% 0;
 					width:100%;
 					display:flex;
 					align-items:center;
@@ -238,7 +238,7 @@ small{
 					width:100%;
 					filter: brightness(0.5);
 				}
-				h3{width:100%;color:$normal-font}
+				h3{width:100%;color:$font-color}
 			}
 		}
 	}
