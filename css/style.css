@@ -293,6 +293,7 @@ small {
     background: #c79b69;
     padding: 7px 10px 5px;
     color: #1d1d1d;
+    border-radius: 8px;
     display: inline-block;
     margin-top: 10px; }
     .button .learn_more:hover {
