@@ -110,7 +110,7 @@ small {
       transition: all .3s;
       border-radius: 8px;
       color: #c79b69; }
-      .intro .link > a:nth-of-type(1) {
+      .intro .link > a:nth-of-type(2) {
         background: #c79b69;
         color: #fff; }
       .intro .link > a:hover {
@@ -219,7 +219,7 @@ small {
           align-items: flex-start;
           text-align: left; }
           .skill > .content_work > .row > div.content a {
-            display: block;
+            display: inline-block;
             margin-top: 10px; }
         .skill > .content_work > .row > div img {
           width: 100%;
@@ -280,16 +280,18 @@ small {
 .button {
   margin-top: 1.5vw; }
   .button p {
-    background: #c79b69;
-    padding: 7px 10px 5px;
-    color: #fff; }
-    .button p:hover {
-      box-shadow: 0px 0px 6px 1px #c79b69 !important; }
-  .button .learn_more {
     border: 1px solid #c79b69;
     border-radius: 8px;
     padding: 7px 10px 5px;
     color: #c79b69;
+    display: inline-block;
+    margin-top: 10px; }
+    .button p:hover {
+      box-shadow: 0px 0px 6px 1px #c79b69 !important; }
+  .button .learn_more {
+    background: #c79b69;
+    padding: 7px 10px 5px;
+    color: #1d1d1d;
     display: inline-block;
     margin-top: 10px; }
     .button .learn_more:hover {
