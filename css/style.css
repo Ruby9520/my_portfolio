@@ -283,9 +283,10 @@ small {
     border: 1px solid #c79b69;
     border-radius: 8px;
     padding: 7px 10px 5px;
-    color: #c79b69;
+    color: #c79b69 !important;
     display: inline-block;
-    margin-top: 10px; }
+    margin-top: 10px;
+    font-size: 1em !important; }
     .button p:hover {
       box-shadow: 0px 0px 6px 1px #c79b69 !important; }
   .button .learn_more {

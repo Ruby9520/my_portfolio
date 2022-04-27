@@ -329,9 +329,10 @@ small{
 		border: 1px solid $font-color;
 		border-radius: 8px;
 		padding: 7px 10px 5px;
-		color: $font-color;
+		color: $font-color !important;
 		display: inline-block;
 		margin-top: 10px;
+		font-size:1em !important;
 		&:hover{
 			box-shadow: 0px 0px 6px 1px $font-color !important;
 		}
